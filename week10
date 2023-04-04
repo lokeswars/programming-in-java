@@ -1,0 +1,72 @@
+🅿🆁🅾🅶🆁🅰🅼🅼🅸🅽🅶 🅸🅽 🅹🅰🆅🅰 🆆🅴🅴🅺 10 || 2023||
+
+°°°·.°·..·°¯°·._.·   🎀  𝒬𝒰𝐼𝒵  🎀   ·._.·°¯°·..·°.·°°°
+1 d                         
+2 e
+3 b
+4 a
+5 b
+6 d
+7 a,c
+8 d
+9 a
+10 d
+
+    🆃🅷🅰🅽🅺 🆈🅾🆄
+
+
+▀▄▀▄▀▄ 𝓟яⓄⒼℝΔᵐ𝕞ｉηق ａs𝐬Ⓘⓖ𝔫𝕄ᵉη𝓉 ▄▀▄▀▄▀
+
+
+♡🍓  ======================  🎃👑
+🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 1️⃣
+
+import java.sql.*;
+import java.lang.*;
+
+🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 2️⃣
+
+conn = DriverManager.getConnection(DB_URL);
+			  System.out.print(conn.isValid(1));
+        
+​🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 3️⃣
+
+import java.sql.*;  // All sql classes are imported
+import java.lang.*; // Semicolon is added
+import java.util.Scanner;
+public class Question103 {
+    public static void main(String args[]) {
+        try {
+              Connection conn = null;
+              Statement stmt = null;
+              String DB_URL = "jdbc:sqlite:/tempfs/db";
+              System.setProperty("org.sqlite.tmpdir", "/tempfs");
+              // Connection object is created
+              conn = DriverManager.getConnection(DB_URL);
+              conn.close();
+              System.out.print(conn.isClosed());
+       }
+       catch(Exception e){ System.out.println(e);}
+    }
+}
+
+
+​🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 4️⃣
+
+
+String CREATE_TABLE_SQL="CREATE TABLE players (UID INT, First_Name VARCHAR(45), Last_Name VARCHAR(45), Age INT);";
+           
+            stmt.executeUpdate(CREATE_TABLE_SQL);
+            
+​🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 5️⃣
+
+ String alter="ALTER TABLE players RENAME TO sports;";
+
+            // command
+            stmt.executeUpdate(alter);
+                                           
+                                               
+                                               
+                                               
+                                                  ▀█▀ █░█ ▄▀█ █▄░█ █▄▀   █▄█ █▀█ █░█
+                                                  ░█░ █▀█ █▀█ █░▀█ █░█   ░█░ █▄█ █▄█                                              
