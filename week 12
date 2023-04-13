@@ -1,0 +1,145 @@
+🅿🆁🅾🅶🆁🅰🅼🅼🅸🅽🅶 🅸🅽 🅹🅰🆅🅰 🆆🅴🅴🅺 12 || 2023||
+
+°°°·.°·..·°¯°·._.·   🎀  𝒬𝒰𝐼𝒵  🎀   ·._.·°¯°·..·°.·°°°
+1 b d                         
+2 a
+3 b
+4 c
+5 d
+6 d
+7 d
+8 c d
+9 b
+10 c
+
+
+    🆃🅷🅰🅽🅺 🆈🅾🆄
+
+
+▀▄▀▄▀▄ 𝓟яⓄⒼℝΔᵐ𝕞ｉηق ａs𝐬Ⓘⓖ𝔫𝕄ᵉη𝓉 ▄▀▄▀▄▀
+
+
+♡🍓  ======================  🎃👑
+🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 1️⃣
+
+// Perform calculaton operations
+		outerloop:
+		for(int i=0; i<seq.length; i++){
+			if(seq[i]=='C'){				//Clear
+				operand1=0.0;
+				operand2=0.0;
+				output=0.0;
+				outflag=0;
+				break outerloop;
+			}else if(seq[i]=='R'){			//Square Root
+				for(int j=0; j<i; j++){
+					o1+=Character.toString(seq[j]);
+				}
+				operand1=Double.parseDouble(o1);
+				output=Math.sqrt(operand1);
+				outflag=1;
+				break outerloop;
+			}
+			else if(seq[i]=='S'){			//Square
+				for(int j=0; j<i; j++){
+					o1+=Character.toString(seq[j]);
+				}
+				operand1=Double.parseDouble(o1);
+				output=Math.pow(operand1,2);
+				outflag=1;
+				break outerloop;
+			}else if(seq[i]=='F'){			//Inverse
+				for(int j=0; j<i; j++){
+					o1+=Character.toString(seq[j]);
+				}
+				operand1=Double.parseDouble(o1);
+				output=Math.pow(operand1,-1);
+				outflag=1;
+				break outerloop;
+			}else{
+				int r=0;
+	            if(seq[i]=='+'||seq[i]=='-'||seq[i]=='/'||seq[i]=='*'||seq[i]=='='){
+					for(int j=0; j<i; j++){
+						o1+=Character.toString(seq[j]);
+					}
+					operand1=Double.parseDouble(o1);
+					for(int k=i+1; k<seq.length; k++){
+						if(seq[k]=='='){
+							outflag=1;
+							operand2=Double.parseDouble(o2);
+							if(seq[i]=='+'){
+								output=operand1+operand2;
+							}else if(seq[i]=='-'){
+								output=operand1-operand2;
+							}else if(seq[i]=='/'){
+								output=operand1/operand2;
+							}else if(seq[i]=='*'){
+								output=operand1*operand2;
+							}
+							break outerloop;
+						}else{
+							o2+=Character.toString(seq[k]);
+						}
+					}
+				}
+			}
+		}
+
+🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 2️⃣
+
+ try{
+     URL url=new URL("http://www.Nptel.com/java-tutorial");
+
+//use appropriate code to print the protocol name and host name from url
+
+     System.out.println("Protocol: "+url.getProtocol());
+     System.out.println("Host Name: "+url.getHost());
+
+      }
+       catch(Exception e){System.out.println(e);}
+   }
+}
+        
+​🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 3️⃣
+
+   //Read your first name
+    String f = s1.next();
+    //Read your last name
+    String l = s1.next();
+    //Read rollnumber
+    int n = s1.nextInt();
+    //Read 1st subject mark
+       double db = s1.nextDouble();
+	//Read 2nd subject mark
+	double db1 = s1.nextDouble();
+	double avg=(db+db1)/2;
+	System.out.println(f + l +" "+ n +" "+avg );
+
+    
+
+​🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 4️⃣
+
+public static void main(String[] args) {
+
+     // Call the instance method in the Parent class
+    Child c= new Child();
+    c.testInstanceMethod();
+
+     // Call the static method in the Parent class
+    Parent.testClassMethod();
+
+    //Parent ob=c;
+   //ob.testClassMethod();
+  }
+}
+            
+​🇵​​🇷​​🇴​​🇬​​🇷​​🇦​​🇲​ 5️⃣
+
+return 2*n-1 + sum_odd_n(n-1);
+      
+
+                                               
+                                               
+                                               
+                                                  ▀█▀ █░█ ▄▀█ █▄░█ █▄▀   █▄█ █▀█ █░█
+                                                  ░█░ █▀█ █▀█ █░▀█ █░█   ░█░ █▄█ █▄█                                              
